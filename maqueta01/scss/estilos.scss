@@ -12,6 +12,8 @@
 
 // Then add additional custom code here
 
+/*en esta hoja de estilos se le da un color de fondo, se la dan medidas para los dispositivos, se incluyen diferentes titulos y cajas*/
+
 *{
     box-sizing: border-box;
 }
@@ -29,10 +31,7 @@
 #pr2 span{
     @include titulo;
 }
-#pilar_3{
-    background-color: $color-pr3;
-    @include caja(2);
-}
+
 #pr3 span{
     @include titulo;
 }

@@ -1,3 +1,5 @@
+/*en esta hoja de mixins se de la un largo a la pagina, una longitud y un valor, se agrega fuente de letra, negrita, tamaño a la letra y color*/
+
 @mixin caja ($valor){
     height: $longitud*$valor;
 }
